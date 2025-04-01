@@ -1,0 +1,22 @@
+***Terraform ***
+
+IaC software (IaC means we can write code for our infrastructure) that is mainly used for building, changing, and managing infrastructure safely and efficiently. 
+Terraform can help with multi-cloud environments by having a single workflow, in other words, terraform init, terraform plan, terraform apply, and so on, for all clouds. 
+The infrastructure that Terraform manages can be hosted on public clouds such as AWS, Microsoft Azure, and GCP, or on-premises in private clouds such as VMware vSphere, OpenStack, or CloudStack.
+
+############################################################################################################################
+
+Terraform mainly uses Terraform files ending with .tf or .tf.json that hold detailed information about what infrastructure components are required to 
+run a single application or your entire data
+
+##########################################################################################################################
+
+Terraform generates an execution plan, which describes what it is going to do to reach the desired state, 
+and then executes it to build the infrastructure described. If there is any change in the configuration file, 
+Terraform is able to determine what has been changed and create incremental execution plans that can be applied
+
+##########################################################################################################################
+
+MULTI-CLOUD DEPLOYMENT
+Nowadays, every organization is moving toward multi-cloud, and one of the challenging tasks is to deploy the entire infrastructure in a different cloud.
+
